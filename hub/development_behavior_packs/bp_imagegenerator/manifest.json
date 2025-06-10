@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "bedrock-image-particles",
+        "description": "Spawn real-world images into Minecraft Bedrock using particles via a simple chat command. Includes behavior pack + Flask API. Made by Jukepolice.",
+        "uuid": "aa63c4a7-1214-4623-b7f7-0199e6f2364a",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 70]
+    },
+    "metadata": {
+        "authors": ["Jukepolice"]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "71c2ae3f-4ff8-4ef2-b750-d427782fe45e",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "717340a5-137a-4d0b-9c33-16df73b260f2",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-net",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
