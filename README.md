@@ -17,7 +17,7 @@ Type `.particle <time> <image URL>` and watch the image appear in your world!
 
 ```mcfunction
 .particle 5 https://i.imgur.com/example.png
-````
+```
 
 This spawns a particle-based image in-game that lasts for 5 seconds.
 
