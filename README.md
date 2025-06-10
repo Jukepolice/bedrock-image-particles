@@ -2,6 +2,9 @@
 
 Bring web images to life in **Minecraft Bedrock Edition** using nothing but particles and a simple chat command.
 
+> 📽️ **Demo:**  
+> [![Watch the demo](demo/demo.gif)]
+> 
 Type `.particle <time> <image URL>` and watch the image appear in your world!
 
 ---
