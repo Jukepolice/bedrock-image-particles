@@ -1,10 +1,3 @@
-> Spawn web images into Minecraft Bedrock using a chat command. Includes a behavior pack + Flask API. Just type `.particle <time> <image URL>` in-game.
-
----
-
-
-
-````markdown
 # 🧩 bedrock-image-particles
 
 Bring web images to life in **Minecraft Bedrock Edition** using nothing but particles and a simple chat command.
@@ -37,9 +30,9 @@ This spawns a particle-based image in-game that lasts for 5 seconds.
 ## 🚀 How It Works
 
 1. Player enters the `.particle` command in the Minecraft chat.
-2. The Flask API fetches the image, and processes it.
-3. The Behavior Pack spawns particles at the right locations and colors.
-4. Result: a rendered image in-game
+2. The Flask API fetches the image and processes it.
+3. The Behavior Pack spawns particles at the correct positions and colors.
+4. Result: a rendered image appears in-game.
 
 ---
 
@@ -59,13 +52,16 @@ This spawns a particle-based image in-game that lasts for 5 seconds.
    ```bash
    git clone https://github.com/Jukepolice/bedrock-image-particles.git
    ```
+
 2. Add the behavior pack to your Minecraft server.
+
 3. Run the Flask API:
 
    ```bash
    python main.py
    ```
-4. Join the server, and use the `.particle` command
+
+4. Join the server and use the `.particle` command.
 
 ---
 
@@ -80,6 +76,6 @@ This spawns a particle-based image in-game that lasts for 5 seconds.
 ## 🧠 Tips
 
 * Hosting the Flask API locally is fine, but you can deploy it remotely for public servers.
-* Make sure server-net and beta API's are enabled in your world.
+* Make sure `server-net` and `Beta APIs` are enabled in your world.
 
-```
+---
